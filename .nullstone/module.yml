@@ -1,0 +1,15 @@
+org_name: nullstone
+name: k8s-docker-socket
+friendly_name: Host Docker Socket
+description: Binds the docker socket from the host machine to a Kubernetes pod.
+category: capability
+subcategory: datastores
+provider_types:
+    - aws
+    - gcp
+platform: k8s
+subplatform: ""
+type: ""
+appCategories:
+    - container
+is_public: false
